@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
+    <head>
+    <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <fieldset class="ab">
+        <h1>achat <mark>en ligne</mark> </h1>
+        <form>
+            <fieldset >
+                <legend>votre identite</legend><br>
+                <label>nom:</label><input type="text" placeholder="nom et prenom" id="nom"><br>
+                <label>date de nissance:</label><input type="date"  id="date"><br>
+                <label>email:</label><input type="email" placeholder="exemple@domaine.com" id="mail"><br>
+                <label>tel:</label><input type="tel" placeholder="par ex+21600000000" id="tel"><br>
+              </fieldset>
+              <fieldset>
+                  <legend>adresse de livrison</legend>
+                  <label>address:</label><br><textarea rows="5" cols="10" maxlength="10"></textarea><br>
+                 <br> <label>code postale:</label><input type="number" placeholder="exemple:4890" id="code pos"><br>
+                  <label>pays:</label><br><select name="liste">
+                      <option>tunisie</option>
+                      <option>libiye</option>
+                      <option>marroc</option>
+                  </select>
+              </fieldset>
+              <fieldset>
+                  <legend>information carte b</legend>
+                  <input type="radio" name="cb"><label>visa</label>
+                  <input type="radio" name="cb"><label>poste</label>
+                  <input type="radio" name="cb"><label>mastercard</label>
+              </fieldset>
+              <fieldset>
+                  <legend>
+                      information de la carte
+                  </legend>
+                  <label>n de carte:</label><input type="text"  id="n carte"><br>
+                  <label>code de sucurite:</label><input type="password"  id="pass"><br>
+                  <label>date de exp:</label><input type="date"  id=" date de exp"><br>
+                  <label>nom du porteur:</label><input type="text" placeholder="nom du client" id="nom du porteur"><br>
 
-</head>
-<body>
-    <h1>Rayen zerriaa</h1>
-    <p>gta 5 sa vice city</p>
-    <p>gta 5 sa vice city</p>
-    <p>gta 5 sa vice city</p>
-
-</body>
+              </fieldset>
+            <fieldset>
+                <input type="submit" value="j achete">
+                <input type="reset" value="annuler" id="annuler">
+            </fieldset>
+        </form>
+    </fieldset>
+    </body>
 </html>
