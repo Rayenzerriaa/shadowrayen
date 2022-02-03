@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script type="text/javascript" src="myscript.js"></script>
+    <script>
+        function calc() { 
+    var v1 = parseInt(document.getElementById("textVal1").value);
+    if (v1%2==0)
+    document.getElementById("result").value =("le nombre est pair");
+    else {
+      document.getElementById("result").value =("le nombre est impair");
+        
+      }
+ 
+}</script>
 </head>
 <body>
     <form>
